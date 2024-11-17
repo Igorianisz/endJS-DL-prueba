@@ -1,4 +1,10 @@
 {
+  "exports": "./dist/Prueba1.js",
+  "type": "module",
+  "scripts": {
+    "dev": "tsx watch Prueba1.ts",
+    "start": "tsx watch Prueba1.ts"
+  },
   "devDependencies": {
     "@types/node": "^22.9.0",
     "typescript": "^5.6.3"
